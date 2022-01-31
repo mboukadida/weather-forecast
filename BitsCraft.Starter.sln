@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitsCraft.Starter.Domain", "src\BitsCraft.Starter.Domain\BitsCraft.Starter.Domain.csproj", "{30A803C6-2C8D-4E65-9D39-23D4F5457A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsCraft.Starter.Application", "src\BitsCraft.Starter.Application\BitsCraft.Starter.Application.csproj", "{74B2E92B-76DA-4EDC-A724-6042EFB990B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsCraft.Starter.Infrastructure", "src\BitsCraft.Starter.Infrastructure\BitsCraft.Starter.Infrastructure.csproj", "{46EE4513-6907-4925-86A2-E76FF18EFE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsCraft.Starter.API", "src\BitsCraft.Starter.API\BitsCraft.Starter.API.csproj", "{ED5E2579-3CA9-4A87-9DCD-E0CA2EA8B2F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A417FD12-0E07-4074-B7A8-6963D6498374}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DF7DECEC-E1C1-4DA5-869B-6DB0060FB13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitsCraft.Starter.Tests", "tests\BitsCraft.Starter.Tests\BitsCraft.Starter.Tests.csproj", "{2B448424-C9E7-406A-8B76-A6646149AFE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A803C6-2C8D-4E65-9D39-23D4F5457A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30A803C6-2C8D-4E65-9D39-23D4F5457A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30A803C6-2C8D-4E65-9D39-23D4F5457A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30A803C6-2C8D-4E65-9D39-23D4F5457A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B2E92B-76DA-4EDC-A724-6042EFB990B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B2E92B-76DA-4EDC-A724-6042EFB990B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B2E92B-76DA-4EDC-A724-6042EFB990B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B2E92B-76DA-4EDC-A724-6042EFB990B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EE4513-6907-4925-86A2-E76FF18EFE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EE4513-6907-4925-86A2-E76FF18EFE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EE4513-6907-4925-86A2-E76FF18EFE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EE4513-6907-4925-86A2-E76FF18EFE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5E2579-3CA9-4A87-9DCD-E0CA2EA8B2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5E2579-3CA9-4A87-9DCD-E0CA2EA8B2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5E2579-3CA9-4A87-9DCD-E0CA2EA8B2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5E2579-3CA9-4A87-9DCD-E0CA2EA8B2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B448424-C9E7-406A-8B76-A6646149AFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B448424-C9E7-406A-8B76-A6646149AFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B448424-C9E7-406A-8B76-A6646149AFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B448424-C9E7-406A-8B76-A6646149AFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30A803C6-2C8D-4E65-9D39-23D4F5457A04} = {A417FD12-0E07-4074-B7A8-6963D6498374}
+		{74B2E92B-76DA-4EDC-A724-6042EFB990B2} = {A417FD12-0E07-4074-B7A8-6963D6498374}
+		{46EE4513-6907-4925-86A2-E76FF18EFE09} = {A417FD12-0E07-4074-B7A8-6963D6498374}
+		{ED5E2579-3CA9-4A87-9DCD-E0CA2EA8B2F3} = {A417FD12-0E07-4074-B7A8-6963D6498374}
+		{2B448424-C9E7-406A-8B76-A6646149AFE7} = {DF7DECEC-E1C1-4DA5-869B-6DB0060FB13B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B06940B5-BB8F-423E-85FA-DFDED3C5A4AE}
+	EndGlobalSection
+EndGlobal
